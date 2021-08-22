@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2015 Qualcomm Technologies, Inc. All Rights Reserved.
+    Qualcomm Technologies Proprietary and Confidential.
+-->
+<layout>
+   <button
+        name="wt_pcba_test"
+        onclick="do_pcba_test"
+        text="btn_pcba_test"
+        w_abs="700"
+        h_abs="120"
+        x_abs="10"
+        y_abs="10"
+        color="0x996600ff"/>
+   <button
+        name="wt_mmi_line_1"
+        w_abs="700"
+        h_abs="3"
+        x_abs="10"
+        y_abs="130"
+        color="0x000000ff"/>        
+   <button
+        name="wt_mmi_test"
+        onclick="do_mmi_test"
+        text="btn_mmi_test"
+        w_abs="350"
+        h_abs="120"
+        x_abs="10"
+        y_abs="133"
+        color="0x996600ff"/>
+    <button
+        name="wt_mmi_audio_test"
+        onclick="do_mmi_audio_test"
+        text="btn_mmi_audio_test"
+        w_abs="350"
+        h_abs="120"
+        x_abs="363"
+        y_abs="133"
+        color="0x996600ff"/>
+   <button
+        name="wt_mmi_line_2"
+        w_abs="700"
+        h_abs="3"
+        x_abs="10"
+        y_abs="253"
+        color="0x000000ff"/> 
+   <button
+        name="wt_sensor_test"
+        onclick="do_sensor_test"
+        text="btn_sensor_test"
+        w_abs="700"
+        h_abs="120"
+        x_abs="10"
+        y_abs="256"
+        color="0x996600ff"/>
+   <button
+        name="wt_mmi_line_3"
+        w_abs="700"
+        h_abs="3"
+        x_abs="10"
+        y_abs="376"
+        color="0x000000ff"/>        
+   <button
+        name="wt_hardware_info"
+        onclick="do_show_hardware_info"
+        text="btn_hardware_info"
+        w_abs="700"
+        h_abs="120"
+        x_abs="10"
+        y_abs="379"
+        color="0x996600ff"/>
+   <button
+        name="wt_mmi_line_4"
+        w_abs="700"
+        h_abs="3"
+        x_abs="10"
+        y_abs="499"
+        color="0x000000ff"/>        
+  <button
+        name="wt_fastboot"
+        onclick="do_fastboot"
+        text="btn_fastboot"
+        w_abs="350"
+        h_abs="120"
+        x_abs="10"
+        y_abs="502"
+        color="0x996600ff" />
+  <button
+        name="wt_recovery"
+        onclick="do_recovery"
+        text="btn_recovery"
+        w_abs="350"
+        h_abs="120"
+        x_abs="363"
+        y_abs="502"
+        color="0x996600ff" />	
+   <button
+        name="wt_mmi_line_5"
+        w_abs="700"
+        h_abs="3"
+        x_abs="10"
+        y_abs="622"
+        color="0x000000ff"/>         
+  <button
+        name="wt_download"
+        onclick="do_download"
+        text="btn_download"
+        w_abs="350"
+        h_abs="120"
+        x_abs="10"
+        y_abs="625"
+        color="0x996600ff" />
+    <button
+        name="zh_or_en"
+        onclick="do_lang"
+        text="btn_lang"
+        w_abs="350"
+        h_abs="120"
+        x_abs="363"
+        y_abs="625"
+        color="0x996600ff" />
+   <button
+        name="wt_mmi_line_6"
+        w_abs="700"
+        h_abs="3"
+        x_abs="10"
+        y_abs="745"
+        color="0x000000ff"/>
+    <button
+        name="wt_power_off"
+        onclick="do_power_off"
+        text="btn_power_off"
+        w_abs="700"
+        h_abs="120"
+        x_abs="10"
+        y_abs="748"
+        color="0x0000ffff" />  
+   <button
+        name="wt_mmi_line_7"
+        w_abs="700"
+        h_abs="3"
+        x_abs="10"
+        y_abs="868"
+        color="0x000000ff"/>
+<!--
+    <button
+        name="wt_erase"
+        onclick="do_erase"
+        text="btn_erase"
+        w_abs="700"
+        h_abs="120"
+        x_abs="10"
+        y_abs="871"
+        color="0xff0000ff" />
+-->
+    <button
+        name="wt_mmi_line_8"
+        w_abs="700"
+        h_abs="3"
+        x_abs="10"
+        y_abs="991"
+        color="0x000000ff"/>               
+    <textview
+        name="wt_pcba_test_result"
+        text="PCBA test:"
+       w_abs="700"
+        h_abs="60"
+        x_abs="240"
+        y_abs="994" />
+    <textview
+        name="wt_mmi_test_result"
+        text="MMI test:"
+        w_abs="700"
+        h_abs="60"
+        x_abs="240"
+        y_abs="1054" />  
+    <textview
+        name="wt_sensor_test_result"
+        text="Sensor test:"
+        w_abs="700"
+        h_abs="60"
+        x_abs="240"
+        y_abs="1114" />
+    <textview
+        name="wt_mmi_audio_test_result"
+        text="Audio test:"
+        w_abs="700"
+        h_abs="60"
+        x_abs="240"
+        y_abs="1174" /> 
+</layout>

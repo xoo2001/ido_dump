@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2015 Qualcomm Technologies, Inc. All Rights Reserved.
+    Qualcomm Technologies Proprietary and Confidential.
+-->
+<layout>
+
+   <button
+        name="home"
+        text="btn_home"
+        w_rel="40"
+        h_rel="15"
+        x_rel="5"
+        y_rel="5"
+        color="0xFF0000ffF" />
+
+   <button
+        name="power"
+        text="btn_power"
+        w_rel="40"
+        h_rel="15"
+        x_rel="55"
+        y_rel="5"
+        color="0xFF0000ffF" />
+
+   <button
+        name="volumedown"
+        text="btn_volumedown"
+        w_rel="40"
+        h_rel="15"
+        x_rel="5"
+        y_rel="25"
+        color="0xFF0000ffF" />
+
+   <button
+        name="volumeup"
+        text="btn_volumeup"
+        w_rel="40"
+        h_rel="15"
+        x_rel="55"
+        y_rel="25"
+        color="0xFF0000ffF" />
+
+   <button
+        name="menu"
+        text="btn_menu"
+        w_rel="40"
+        h_rel="15"
+        x_rel="5"
+        y_rel="45"
+        color="0xFF0000ff" />
+
+   <button
+        name="back"
+        text="btn_back"
+        w_rel="40"
+        h_rel="15"
+        x_rel="55"
+        y_rel="45"
+        color="0xFF0000ff" />
+
+    <include layout="footer.xml"/>
+</layout>

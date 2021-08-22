@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015 Qualcomm Technologies, Inc. All Rights Reserved.
+    Qualcomm Technologies Proprietary and Confidential.
+-->
+<layout>
+   <button
+        name="wt_button"
+        text="loudspeaker_left"
+        w_abs="710"
+        h_abs="120"
+        x_abs="5"
+        y_abs="10"
+        color="0xFF7F82FF"
+        visibility="visible"/>
+   <button
+        name="wt_finish_button"
+        text="finish"
+        w_abs="710"
+        h_abs="120"
+        x_abs="5"
+        y_abs="10"
+        color="0x4B0000FF"
+        visibility="invisible"/>
+   <button
+        name="wt_didi_current_button"
+        onclick="do_didi_current"
+        text="btn_didi_current"
+        w_abs="710"
+        h_abs="180"
+        x_abs="5"
+        y_abs="200"
+        color="0x00FFFFFF"
+        visibility="invisible"/>    
+
+   <button
+        name="wt_112_voice_button"
+        onclick="do_112_voice"
+        text="btn_112_voice"
+        w_abs="710"
+        h_abs="180"
+        x_abs="5"
+        y_abs="400"
+        color="0x007F4FFF"
+        visibility="invisible"/>
+
+   <button
+        name="wt_musci_play_button"
+        onclick="do_musci_play"
+        text="btn_musci_play"
+        w_abs="710"
+        h_abs="180"
+        x_abs="5"
+        y_abs="600"
+        color="0x00FFFFFF"
+        visibility="invisible"/>
+
+   <button
+        name="wt_no_sound_button"
+        onclick="do_no_sound_button"
+        text="btn_no_sound"
+        w_abs="710"
+        h_abs="180"
+        x_abs="5"
+        y_abs="800"
+        color="0xFF0000FF"
+        visibility="invisible"/>   
+
+   <button
+        name="wt_pass_button"
+        onclick="do_pass"
+        text="btn_pass"
+        w_abs="710"
+        h_abs="180"
+        x_abs="5"
+        y_abs="1000"
+        color="0x007D7DFF"
+        visibility="invisible"/>    
+        
+   <button
+        name="wt_fail_button"
+        onclick="do_fail"
+        text="btn_fail"
+        w_abs="710"
+        h_abs="180"
+        x_abs="5"
+        y_abs="1000"
+        color="0xFF0000FF"
+        visibility="invisible"/>                                   
+        
+</layout>

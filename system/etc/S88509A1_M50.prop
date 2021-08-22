@@ -1,0 +1,4 @@
+ro.miui.support_fingerprint=true
+ro.build.display.wtid=SW_S88509B1_V090_M50_MP_XM
+ro.miui.gyro_support=true
+ro.hw_version=32G

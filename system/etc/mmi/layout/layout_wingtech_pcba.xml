@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015 Qualcomm Technologies, Inc. All Rights Reserved.
+    Qualcomm Technologies Proprietary and Confidential.
+-->
+<layout>
+   <listview
+        name="wt_list_view_sensor"
+        onclick="switch_module"
+        w_rel="69"
+        h_rel="99"
+        x_rel="0"
+        y_rel="0"/>
+    <button
+        name="wt_menu"
+        text="btn_test_menu"
+        onclick="do_go_main_menu"
+        w_rel="23"
+        h_rel="10"
+        x_rel="74"
+        y_rel="6"
+        color="0x336666ff" />      
+    <button
+        name="wt_full_test"  
+        text="btn_test_full_test"
+        onclick="do_full_test"            
+        w_rel="23"
+        h_rel="10"
+        x_rel="74"
+        y_rel="21"
+        color="0x336666ff" />
+   <button
+        name="main_pageup"
+        onclick="do_page_up"
+        text="btn_pageup"
+        w_rel="23"
+        h_rel="10"
+        x_rel="74"
+        y_rel="35"
+        color="0x336666ff" />
+   <button
+        name="main_pagedown"
+        onclick="do_page_down"
+        text="btn_pagedown"
+        w_rel="23"
+        h_rel="10"
+        x_rel="74"
+        y_rel="50"
+        color="0x336666ff" />
+<!--
+    <button
+        name="wt_background_test"  
+        text="btn_background_test"
+        onclick="do_background_test"            
+        w_rel="23"
+        h_rel="10"
+        x_rel="74"
+        y_rel="65"
+        color="0x336666ff" />
+-->
+    <button
+        name="wt_finish"
+        text="btn_test_finish"
+        onclick="do_finish"
+        w_rel="23"
+        h_rel="10"
+        x_rel="74"
+        y_rel="78"
+        color="0x336666ff" />  
+</layout>

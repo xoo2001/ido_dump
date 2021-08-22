@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-2015 Qualcomm Technologies, Inc. All Rights Reserved.
+    Qualcomm Technologies Proprietary and Confidential.
+-->
+<layout>
+    <textview
+        name="hardwareInfo"
+        text=""
+        w_rel="99"
+        h_rel="78"
+        x_rel="1"
+        y_rel="3" />
+    <button
+        name="go_main_menu"
+        text="btn_go_main_menu"
+        onclick="do_go_main_menu"
+        w_rel="19"
+        h_rel="9"
+        x_rel="41"
+        y_rel="82"
+        color="0x2CF3137D" />
+</layout>

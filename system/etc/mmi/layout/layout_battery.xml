@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015 Qualcomm Technologies, Inc. All Rights Reserved.
+    Qualcomm Technologies Proprietary and Confidential.
+-->
+<layout>
+	 <include layout="header.xml"/>
+    <button
+        name="wt_indication"
+        text="btn_connect_to_usb"
+        w_rel="100"
+        h_rel="15"
+        x_rel="0"
+        y_rel="65"
+        color="0xFF00007D" 
+        visibility="visible"/> 	 
+	 <textview
+        name="display"
+        text=""
+        w_rel="100"
+        h_rel="50"
+        x_rel="4"
+        y_rel="12" />
+    <button
+        name="wt_fail_return"
+        text="btn_fail"
+        onclick="do_fail_return"
+        w_rel="100"
+        h_rel="16"
+        x_rel="0"
+        y_rel="84"
+        color="0xFF00007D" 
+        visibility="invisible"/>         
+   <include layout="footer.xml"/>
+</layout>

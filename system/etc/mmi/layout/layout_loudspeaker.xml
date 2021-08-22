@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2015 Qualcomm Technologies, Inc. All Rights Reserved.
+    Qualcomm Technologies Proprietary and Confidential.
+-->
+<layout>
+	 <include layout="header.xml"/>
+	 <textview
+        name="display"
+        text=""
+        w_rel="100"
+        h_rel="70"
+        x_rel="4"
+        y_rel="12" />
+    <button
+        name="wt_didi_current_button"
+        onclick="do_didi_current"
+        text="btn_didi_current"
+        w_rel="100"
+        h_rel="12"
+        x_rel="0"
+        y_rel="24" 
+        color="0x00FFFFFF"
+        visibility="invisible"/>    
+
+   <button
+        name="wt_112_voice_button"
+        onclick="do_112_voice"
+        text="btn_112_voice"
+        w_rel="100"
+        h_rel="12"
+        x_rel="0"
+        y_rel="36" 
+        color="0x007F4FFF"
+        visibility="invisible"/>
+
+   <button
+        name="wt_musci_play_button"
+        onclick="do_musci_play"
+        text="btn_musci_play"
+        w_rel="100"
+        h_rel="12"
+        x_rel="0"
+        y_rel="48" 
+        color="0x00FFFFFF"
+        visibility="invisible"/>
+
+   <button
+        name="wt_no_sound_button"
+        onclick="do_no_sound_button"
+        text="btn_no_sound"
+        w_rel="100"
+        h_rel="12"
+        x_rel="0"
+        y_rel="60" 
+        color="0xFF0000FF"
+        visibility="invisible"/>        
+   <include layout="footer.xml"/>          
+</layout>
